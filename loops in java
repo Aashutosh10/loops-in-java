@@ -1,0 +1,108 @@
+import java.util.Scanner;
+
+
+public class Main {
+    public static void main(String[] args) {
+        /*Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your name:");
+        String name= sc.nextLine();
+        System.out.println(name);*/
+
+      /*  boolean isSunUp = true;
+        if (isSunUp == false)
+            System.out.println("day");
+        else
+           System.out.println("night");   */
+        // int a = 60;
+        // int b = 40;
+
+        // if(a < 50 && b < 50)
+        //System.out.println("both less than 50");
+        //  if(a < 70 && b < 50)
+        // System.out.println("both less");
+        // if(a < 50 || b<50)
+        // System.out.println("one less than 50");
+
+        // Scanner sc = new Scanner(System.in);
+        //pen = 20 book = 50
+
+        /*int cash = sc.nextInt();
+        if(cash<10) {
+            System.out.println("cannot buy anything");
+            System.out.println("get more cash");
+        }
+        else if (cash > 10 && cash<50){
+                System.out.println("can get 1 thing");
+        }
+        else {
+            System.out.println("can get anything");
+        }*/
+        //switch
+        /*int day = 1;
+        switch (day){
+            case 1:
+                System.out.println("monday");
+                break;
+            case 2:
+                System.out.println("tuesday");
+                break;
+            case 3:
+                System.out.println("wednesday");
+                break;
+            default:
+                System.out.println("wed-sun");
+        }*/
+        //LOOPS
+        //for(int i = 0; i<=100; i++){
+        // System.out.println(i);
+        //}
+        //while
+        /*  int i = 100;
+          while (i >= 1){
+              System.out.println(i);
+              i--;
+          }*/
+        //do while
+       /* int j =100;
+        do {
+            System.out.println(j);
+            j = j-1;
+        } while(j >= 1);*/
+
+       /* Scanner sc =new Scanner(System.in);
+        int number = 0;
+        do{
+            System.out.println("input a number");
+             number = sc.nextInt();
+            System.out.print("here is your number");
+            System.out.println(number);
+
+        }while (number >=0);*/
+
+        //Break and continue
+        /*  int i=0;
+        while (true){
+            if(i==3){
+                i=i+1;
+                continue;
+            }
+            System.out.println(i);
+            i=i+1;
+            if(i>5){
+                break;
+            }
+        }*/
+
+        // TRY - CATCH in exception Handling
+        /*int[] marks = {97, 98, 95};
+        try {
+
+            System.out.println(marks[5]);
+        }catch (Exception exception){
+            //do something afet catching
+        }
+
+        System.out.println("name is ram");*/
+    }
+
+}
